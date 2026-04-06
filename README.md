@@ -8,3 +8,13 @@ Objetivos a cumplir por los estudiantes:
 ● 5. Manejo de conceptos vinculados a POO
 ● 6. Manejo básico de Git y GitHub (crear repositorio y subir archivos)
 
+class Punto:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+        
+    def eje_x(self):
+        return self.x
+
+    def eje_y(self):
+        return self.y
