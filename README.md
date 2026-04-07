@@ -36,5 +36,3 @@ p1.impresion()
 p2 = p1.opuesto()
 print("Punto opuesto:")
 p2.impresion()
-
-
